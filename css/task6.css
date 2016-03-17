@@ -260,7 +260,7 @@ section.how h3{
 	position: relative;
 	top: -64px;
 
-	background: rgba(0,0,0,0.3);
+	background: rgba(0,0,0,0.5);
 	
 	display:table-cell;
 	vertical-align:middle;
@@ -281,7 +281,9 @@ section.how h3{
 .img_word span{
 	color: #72b16a;
 	font-size:12px;
-	
+	display: block;
+	margin-top: 20px;
+	font-style: oblique;
 }
 
 
