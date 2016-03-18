@@ -25,6 +25,7 @@
 		nav ul li {
 			margin: 0 0 10px 0;
 			height: 60px;
+			position: relative;
 
 		}
 
@@ -39,16 +40,20 @@
 			color: #fff;
 			text-indent: 2em;
 			box-shadow: 0 0 6px skyblue;
+			position:absolute;
+			top: 50%;
+			transform:translate(0,-50%);
+			-webkit-transform: translate(0,-50%);
 
-			transition:width         0.5s;
-			-moz-transition:width    0.5s; /* Firefox 4 */
-			-webkit-transition:width 0.5s; /* Safari and Chrome */
-			-o-transition:width      0.5s; /* Opera */			
+			transition:width         0.5s, height  0.5s;
+			-moz-transition:width    0.5s, height  0.5s; /* Firefox 4 */
+			-webkit-transition:width 0.5s, height  0.5s; /* Safari and Chrome */
+			-o-transition:width      0.5s, height  0.5s; /* Opera */			
 		}
 
 		a:hover {
 			width:470px;
-
+			height: 55px;
 			
 		}
 
