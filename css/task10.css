@@ -21,12 +21,16 @@ div[class*="box"] {
 	width: 150px;
 	box-sizing: border-box;
 	margin: 20px 0 0 0;
+
 }
 
 div.box4 {
 	color: blue;
 	border :1px solid blue;
 	height: 200px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 .box1 {
@@ -61,5 +65,11 @@ div.box4 {
 	order: -1;
 }
 
+}
+
+.box4>div {
+	width:30px;
+	height: 40px;
+	border: 1px solid red;
 }
 
