@@ -63,12 +63,15 @@ hr {
 
 nav ul {
 	height: 3.75rem;
-	display: flex;
+	
 	display: -webkit-flex;
 	display: -ms-flex;
-	flex-flow: row nowrap;
+	display: flex;
+	
 	-webkit-flex-flow: row nowrap;
 	-ms-flex-flow:row nowrap;
+	flex-flow: row nowrap;
+
 	list-style: none;
 	background: #fff;
 }
@@ -93,17 +96,23 @@ nav ul li.active {
 
 .tag ul {
 	height: 9.5rem;
-	display: flex;
+	
 	display: -webkit-flex;
 	display: -ms-flex;
-	flex-flow: row nowrap;
+	display: flex;
+	
 	-webkit-flex-flow: row nowrap;
 	-ms-flex-flow:row nowrap;
-	list-style: none;	
-	background: #fff;
-	justify-content: space-around;
+	flex-flow: row nowrap;
+
 	-webkit-justify-content:space-around;
 	-ms-justify-content:space-around;
+	justify-content: space-around;	
+
+	list-style: none;	
+	background: #fff;
+	
+
 }
 
 .tag ul li {
@@ -123,12 +132,15 @@ nav ul li.active {
 
 .colume {
 //	height: 13.75rem;
-	display: flex;
+	
 	display: -webkit-flex;
 	display: -ms--flex;
-	flex-flow: row nowrap;
+	display: flex;
+	
 	-webkit-flex-flow: row nowrap;
 	-ms-flex-flow:row nowrap;
+	flex-flow: row nowrap;
+
 	text-align: center;
 	padding: 1.25rem 0 1.25rem 0;
 	background: #fff;
@@ -175,17 +187,23 @@ nav ul li.active {
 }
 
 .module-content {
-	display: flex;
-	flex-flow: row nowrap;
+	
+	
 	text-align: center;
-	align-items: center;
+	
 
 	display: -webkit-flex;
 	display:  -ms-flex;
+	display: flex;
+
 	-webkit-flex-flow: row nowrap;
-	-webkit-align-items: center;
 	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
+
+	-webkit-align-items: center;
 	-ms-align-items: center;	
+	align-items: center;
+
 	padding: 1.25rem 0 0 0 ;
 }
 
@@ -200,15 +218,20 @@ nav ul li.active {
 
 .module-content>div  {
 	width:75%;
-	display: flex;
+	
 	display: -webkit-flex;
 	display: -ms-flex;
-	flex-flow: row wrap;
+	display: flex;
+
+	
 	-webkit-flex-flow: row wrap;
 	-ms-flex-flow:row wrap;
-	justify-content: space-around;
+	flex-flow: row wrap;
+
+	
 	-webkit-justify-content:space-around;
 	-ms-justify-content:space-around;
+	justify-content: space-around;
 }
 
 
@@ -228,13 +251,16 @@ nav ul li.active {
 .article article {
 	padding: 1.25rem;
 	margin: 0 0  0.3125rem 0;
-	display: flex;
+	background: #fff;
+
 	display: -webkit-flex;
 	display: -ms-flex;
-	background: #fff;
-	flex-flow: row nowrap;
+	display: flex;
+	
+	
 	-webkit-flex-flow: row nowrap;
 	-ms-flex-flow: row nowrap;
+	flex-flow: row nowrap;
 
 }
 
@@ -272,12 +298,16 @@ nav ul li.active {
 }
 
 .article-t2 ul {
-	display: flex;
+	
 	display: -webkit-flex;
 	display: -ms-flex;
-	justify-content: center;
+	display: flex;
+
+	
 	-webkit-justify-content:center;
 	-ms-justify-content:center;
+	justify-content: center;
+	
 	list-style: none;
 	width: 100%;
 	padding: 0.625rem 0;
