@@ -22,6 +22,7 @@ html, body {
     -webkit-user-select: none;   /* 禁止选中文本（如无文本选中需求，此为必选项） */
     user-select: none;
     background-color: #f5f5f5;
+    overflow-x:hidden;
 }
 
 
@@ -265,7 +266,7 @@ nav ul li.active {
 .article article img {
 	display: block;
 	height: 5.5rem;
-	margin: 0 auto;
+
 }
 
 .article article div {
