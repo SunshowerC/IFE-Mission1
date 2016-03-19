@@ -12,7 +12,7 @@ html {
 }
 
 a, img {
-    -webkit-touch-callout: none; /* 禁止长按链接与图片弹出菜单 */
+    -webkit-touch-callout:none; /* 禁止长按链接与图片弹出菜单 */
     text-decoration: none;
 }
 html, body {
@@ -57,7 +57,9 @@ hr {
 nav ul {
 	height: 3.75rem;
 	display: flex;
+	display: -webkit-flex;
 	flex-flow: row nowrap;
+	-webkit-flex-flow: row nowrap;
 	list-style: none;
 	background: #fff;
 }
@@ -83,11 +85,13 @@ nav ul li.active {
 .tag ul {
 	height: 9.5rem;
 	display: flex;
+	display: -webkit-flex;
 	flex-flow: row nowrap;
+	-webkit-flex-flow: row nowrap;
 	list-style: none;	
 	background: #fff;
 	justify-content: space-around;
-
+	-webkit-justify-content:space-around;
 }
 
 .tag ul li {
@@ -108,7 +112,9 @@ nav ul li.active {
 .colume {
 //	height: 13.75rem;
 	display: flex;
+	display: -webkit-flex;
 	flex-flow: row nowrap;
+	-webkit-flex-flow: row nowrap;
 	text-align: center;
 	padding: 1.25rem 0 1.25rem 0;
 	background: #fff;
@@ -159,6 +165,10 @@ nav ul li.active {
 	flex-flow: row nowrap;
 	text-align: center;
 	align-items: center;
+
+	display: -webkit-flex;
+	-webkit-flex-flow: row nowrap;
+	-webkit-align-items: center;
 	padding: 1.25rem 0 0 0 ;
 }
 
@@ -174,8 +184,11 @@ nav ul li.active {
 .module-content>div  {
 	width:75%;
 	display: flex;
+	display: -webkit-flex;
 	flex-flow: row wrap;
 	justify-content: space-around;
+	-webkit-justify-content:space-around;
+	-webkit-flex-flow: row wrap;
 }
 
 
@@ -196,8 +209,10 @@ nav ul li.active {
 	padding: 1.25rem;
 	margin: 0 0  0.3125rem 0;
 	display: flex;
+	display: -webkit-flex;
 	background: #fff;
 	flex-flow: row nowrap;
+	-webkit-flex-flow: row nowrap;
 
 }
 
@@ -236,7 +251,9 @@ nav ul li.active {
 
 .article-t2 ul {
 	display: flex;
+	display: -webkit-flex;
 	justify-content: center;
+	-webkit-justify-content:center;
 	list-style: none;
 	width: 100%;
 	padding: 0.625rem 0;
