@@ -237,7 +237,7 @@ nav ul li.active {
 .module-content p {
 	color: #222;
 	width: 47%;
-//	height: 3.125rem;
+	height: 3.0rem;
 	line-height: 3.0rem;
 	background: #f8f8f8;
 	margin: 0 1% 1% 2%;
