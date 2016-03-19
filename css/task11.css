@@ -8,6 +8,10 @@
     -moz-box-sizing: border-box;	
 }
 
+li {
+	display: block;
+}
+
 html {
 	font-size: 100%;
 	font-family: "Microsoft Yahei","Helvetica Neue", Helvetica, STHeiTi, sans-serif;
