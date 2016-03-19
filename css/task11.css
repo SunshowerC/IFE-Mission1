@@ -215,6 +215,7 @@ nav ul li.active {
 
 }
 
+/*
 .module-content>div  {
 	width:75%;
 	display: -webkit-box;
@@ -232,7 +233,12 @@ nav ul li.active {
 	-ms-justify-content:space-around;
 	justify-content: space-around;
 }
+*/
 
+.module-content>div  {
+	width:75%;
+
+}
 
 .module-content p {
 	color: #222;
@@ -241,6 +247,7 @@ nav ul li.active {
 	line-height: 3.0rem;
 	background: #f8f8f8;
 	margin: 0 1% 1% 2%;
+	float: left;
 	
 }
 
