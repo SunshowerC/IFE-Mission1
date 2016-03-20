@@ -120,7 +120,7 @@ transition: left 1s;
 }
 
 #banner-2:checked~#wrap {
-	left:-300px;
+	left:-100%;
 }
 
 #banner-3:checked~#wrap {
