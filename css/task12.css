@@ -127,6 +127,10 @@ transition: left 1s;
 	left:-200%;
 }
 
+#banner ul li label:hover {
+	cursor: pointer;
+}
+
 /*
 #banner {
 	position: relative;
